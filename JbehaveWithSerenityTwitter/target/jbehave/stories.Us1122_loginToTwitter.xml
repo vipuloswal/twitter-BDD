@@ -1,0 +1,31 @@
+<story path="stories/Us1122_loginToTwitter.story" title="">
+<meta>
+<property keyword="@" name="userstory" value="Twitter-login to Twitter"/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">Twitter user</inOrderTo>
+  <asA keyword="I want to">login into Twitter application</asA>
+  <iWantTo keyword="So that">I can access my Twitter account correctly
+
+Meta:
+@userstory Twitter-login to Twitter</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="US001 Login to Twitter : Login with correct crendentials">
+<examples keyword="Examples:">
+<step>Given User hit the twitter link in browser</step>
+<step>When User passes username &lt;Username&gt; and password &lt;Password&gt;</step>
+<step>And User click on login button</step>
+<step>Then User should be navigated to home screen</step>
+<parameters>
+<names><name>Username</name><name>Password</name></names>
+<values><value>@TestApp63500650</value><value>P@ssw0rd</value></values>
+</parameters>
+
+<example keyword="Example:">{Username=@TestApp63500650, Password=P@ssw0rd, categories=Twitter-login to Twitter, userstory=Twitter-login to Twitter}</example>
+<step outcome="successful">Given User hit the twitter link in browser</step>
+<step outcome="successful">When User passes username <parameter>@TestApp63500650</parameter> and password <parameter>P@ssw0rd</parameter></step>
+<step outcome="successful">And User click on login button</step>
+<step outcome="successful">Then User should be navigated to home screen</step>
+</examples>
+</scenario>
+</story>

@@ -1,0 +1,755 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/Us1122_loginToTwitter.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA>Twitter user</asA>
+          <iWantTo>login into Twitter application</iWantTo>
+          <soThat>I can access my Twitter account correctly&#xd;
+&#xd;
+Meta:&#xd;
+@userstory Twitter-login to Twitter</soThat>
+        </narrative>
+        <meta>
+          <properties>
+            <property name="userstory" value="Twitter-login to Twitter"/>
+          </properties>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>US001 Login to Twitter : Login with correct crendentials</title>
+            <meta>
+              <properties>
+                <property name="categories" value="Twitter-login to Twitter"/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|Username|Password|&#xd;
+|@TestApp63500650|P@ssw0rd|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>Username</string>
+                <string>Password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>Username</string>
+                    <string>@TestApp63500650</string>
+                  </entry>
+                  <entry>
+                    <string>Password</string>
+                    <string>P@ssw0rd</string>
+                  </entry>
+                  <entry>
+                    <string>categories</string>
+                    <string>Twitter-login to Twitter</string>
+                  </entry>
+                  <entry>
+                    <string>userstory</string>
+                    <string>Twitter-login to Twitter</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given User hit the twitter link in browser</string>
+              <string>When User passes username &lt;Username&gt; and password &lt;Password&gt;</string>
+              <string>And User click on login button</string>
+              <string>Then User should be navigated to home screen</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>Us1122_loginToTwitter.story</name>
+      </story>
+      <localizedNarrative>As a Twitter user
+I want to login into Twitter application
+So that I can access my Twitter account correctly&#xd;
+&#xd;
+Meta:&#xd;
+@userstory Twitter-login to Twitter</localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>US001 Login to Twitter : Login with correct crendentials</title>
+            <meta>
+              <properties>
+                <property name="categories" value="Twitter-login to Twitter"/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|Username|Password|&#xd;
+|@TestApp63500650|P@ssw0rd|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>Username</string>
+                <string>Password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>Username</string>
+                    <string>@TestApp63500650</string>
+                  </entry>
+                  <entry>
+                    <string>Password</string>
+                    <string>P@ssw0rd</string>
+                  </entry>
+                  <entry>
+                    <string>categories</string>
+                    <string>Twitter-login to Twitter</string>
+                  </entry>
+                  <entry>
+                    <string>userstory</string>
+                    <string>Twitter-login to Twitter</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given User hit the twitter link in browser</string>
+              <string>When User passes username &lt;Username&gt; and password &lt;Password&gt;</string>
+              <string>And User click on login button</string>
+              <string>Then User should be navigated to home screen</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Us1122_loginToTwitter.story</storyPath>
+          <allowed>true</allowed>
+          <examplePerformableScenarios>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>Username</string>
+                  <string>@TestApp63500650</string>
+                </entry>
+                <entry>
+                  <string>Password</string>
+                  <string>P@ssw0rd</string>
+                </entry>
+                <entry>
+                  <string>categories</string>
+                  <string>Twitter-login to Twitter</string>
+                </entry>
+                <entry>
+                  <string>userstory</string>
+                  <string>Twitter-login to Twitter</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given User hit the twitter link in browser</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given User hit the twitter link in browser</parametrisedStep>
+                    <durationInMillis>55067</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>When User passes username &lt;Username&gt; and password &lt;Password&gt;</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When User passes username ｟@TestApp63500650｠ and password ｟P@ssw0rd｠</parametrisedStep>
+                    <durationInMillis>2542</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>And User click on login button</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>And User click on login button</parametrisedStep>
+                    <durationInMillis>35306</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>Then User should be navigated to home screen</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Then User should be navigated to home screen</parametrisedStep>
+                    <durationInMillis>1219</durationInMillis>
+                  </successful>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties>
+                  <property name="userstory" value="Twitter-login to Twitter"/>
+                  <property name="categories" value="Twitter-login to Twitter"/>
+                </properties>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>US001 Login to Twitter : Login with correct crendentials</title>
+                <meta>
+                  <properties>
+                    <property name="categories" value="Twitter-login to Twitter"/>
+                  </properties>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|Username|Password|&#xd;
+|@TestApp63500650|P@ssw0rd|</tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>Username</string>
+                    <string>Password</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>Username</string>
+                        <string>@TestApp63500650</string>
+                      </entry>
+                      <entry>
+                        <string>Password</string>
+                        <string>P@ssw0rd</string>
+                      </entry>
+                      <entry>
+                        <string>categories</string>
+                        <string>Twitter-login to Twitter</string>
+                      </entry>
+                      <entry>
+                        <string>userstory</string>
+                        <string>Twitter-login to Twitter</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+                <steps>
+                  <string>Given User hit the twitter link in browser</string>
+                  <string>When User passes username &lt;Username&gt; and password &lt;Password&gt;</string>
+                  <string>And User click on login button</string>
+                  <string>Then User should be navigated to home screen</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+          </examplePerformableScenarios>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>98332</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>US001 Login to Twitter : Login with correct crendentials</title>
+        <meta>
+          <properties>
+            <property name="categories" value="Twitter-login to Twitter"/>
+          </properties>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString>|Username|Password|&#xd;
+|@TestApp63500650|P@ssw0rd|</tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers>
+            <string>Username</string>
+            <string>Password</string>
+          </headers>
+          <data>
+            <linked-hash-map>
+              <entry>
+                <string>Username</string>
+                <string>@TestApp63500650</string>
+              </entry>
+              <entry>
+                <string>Password</string>
+                <string>P@ssw0rd</string>
+              </entry>
+              <entry>
+                <string>categories</string>
+                <string>Twitter-login to Twitter</string>
+              </entry>
+              <entry>
+                <string>userstory</string>
+                <string>Twitter-login to Twitter</string>
+              </entry>
+            </linked-hash-map>
+          </data>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given User hit the twitter link in browser</string>
+          <string>When User passes username &lt;Username&gt; and password &lt;Password&gt;</string>
+          <string>And User click on login button</string>
+          <string>Then User should be navigated to home screen</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Us1122_loginToTwitter.story</storyPath>
+      <allowed>true</allowed>
+      <examplePerformableScenarios>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>Username</string>
+              <string>@TestApp63500650</string>
+            </entry>
+            <entry>
+              <string>Password</string>
+              <string>P@ssw0rd</string>
+            </entry>
+            <entry>
+              <string>categories</string>
+              <string>Twitter-login to Twitter</string>
+            </entry>
+            <entry>
+              <string>userstory</string>
+              <string>Twitter-login to Twitter</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given User hit the twitter link in browser</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given User hit the twitter link in browser</parametrisedStep>
+                <durationInMillis>55067</durationInMillis>
+              </successful>
+              <successful>
+                <step>When User passes username &lt;Username&gt; and password &lt;Password&gt;</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When User passes username ｟@TestApp63500650｠ and password ｟P@ssw0rd｠</parametrisedStep>
+                <durationInMillis>2542</durationInMillis>
+              </successful>
+              <successful>
+                <step>And User click on login button</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>And User click on login button</parametrisedStep>
+                <durationInMillis>35306</durationInMillis>
+              </successful>
+              <successful>
+                <step>Then User should be navigated to home screen</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Then User should be navigated to home screen</parametrisedStep>
+                <durationInMillis>1219</durationInMillis>
+              </successful>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties>
+              <property name="userstory" value="Twitter-login to Twitter"/>
+              <property name="categories" value="Twitter-login to Twitter"/>
+            </properties>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>US001 Login to Twitter : Login with correct crendentials</title>
+            <meta>
+              <properties>
+                <property name="categories" value="Twitter-login to Twitter"/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|Username|Password|&#xd;
+|@TestApp63500650|P@ssw0rd|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>Username</string>
+                <string>Password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>Username</string>
+                    <string>@TestApp63500650</string>
+                  </entry>
+                  <entry>
+                    <string>Password</string>
+                    <string>P@ssw0rd</string>
+                  </entry>
+                  <entry>
+                    <string>categories</string>
+                    <string>Twitter-login to Twitter</string>
+                  </entry>
+                  <entry>
+                    <string>userstory</string>
+                    <string>Twitter-login to Twitter</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given User hit the twitter link in browser</string>
+              <string>When User passes username &lt;Username&gt; and password &lt;Password&gt;</string>
+              <string>And User click on login button</string>
+              <string>Then User should be navigated to home screen</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+      </examplePerformableScenarios>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

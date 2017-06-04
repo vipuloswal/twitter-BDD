@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Sun Jun 04 11:33:29 NOVT 2017
+threads=1
+total=100000
+stories/Us1122_loginToTwitter.story=100000
+threadAverage=100000

@@ -1,0 +1,31 @@
+<story path="stories/Us1122_loginToFacebook.story" title="">
+<meta>
+<property keyword="@" name="userstory" value="facebook-login to facebook"/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">facebook user</inOrderTo>
+  <asA keyword="I want to">login into facebook application</asA>
+  <iWantTo keyword="So that">I can access my facebook account correctly
+
+Meta:
+@userstory facebook-login to facebook</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="US001 Login to facebook : Login with correct crendentials">
+<examples keyword="Examples:">
+<step>Given User hit the facebook link in browser</step>
+<step>When User passes username &lt;Username&gt; and password &lt;Password&gt;</step>
+<step>And User click on login button</step>
+<step>Then User should be navigated to home screen</step>
+<parameters>
+<names><name>Username</name><name>Password</name></names>
+<values><value>@TestApp63500650</value><value>P@ssw0rd</value></values>
+</parameters>
+
+<example keyword="Example:">{Username=@TestApp63500650, Password=P@ssw0rd, categories=facebook-login to facebook, userstory=facebook-login to facebook}</example>
+<step outcome="successful">Given User hit the facebook link in browser</step>
+<step outcome="successful">When User passes username <parameter>@TestApp63500650</parameter> and password <parameter>P@ssw0rd</parameter></step>
+<step outcome="successful">And User click on login button</step>
+<step outcome="successful">Then User should be navigated to home screen</step>
+</examples>
+</scenario>
+</story>

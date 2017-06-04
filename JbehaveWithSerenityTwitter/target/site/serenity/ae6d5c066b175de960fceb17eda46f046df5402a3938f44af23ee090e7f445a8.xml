@@ -1,0 +1,72 @@
+<acceptance-test-run title="US001 Login to Twitter " name="US001 Login to Twitter : Login with correct crendentials" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="97316" timestamp="2017-06-04T11:31:49.026+06:00">
+  <user-story id="Us1122_loginToTwitter" name="Us1122 login to twitter" path="stories/Us1122_loginToTwitter.story"/>
+  <tags>
+    <tag name="Us1122 login to twitter" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>Username</header>
+      <header>Password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>@TestApp63500650</value>
+        <value>P@ssw0rd</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {Username=@TestApp63500650, Password=P@ssw0rd, categories=Twitter-login to Twitter, userstory=Twitter-login to Twitter}" result="SUCCESS">
+    <test-group name="Given User hit the twitter link in browser" result="SUCCESS">
+      <screenshots>
+        <screenshot image="55a08f0a92c728bfbd2da49e040e7fef.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="54323">
+        <screenshots>
+          <screenshot image="8512924d3e01c5a9fc8c4a8ce9ca6dbe.png"/>
+        </screenshots>
+        <description>Open the application</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User passes username {@TestApp63500650} and password {P@ssw0rd}" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8512924d3e01c5a9fc8c4a8ce9ca6dbe.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2443">
+        <screenshots>
+          <screenshot image="df225ecd1dcbb582587ef5295dd13a60.png"/>
+          <screenshot image="490963e663a26fd038f00f5c73fcc527.png"/>
+        </screenshots>
+        <description>Pass username and password: &lt;span class=&apos;step-parameter&apos;&gt;@TestApp63500650, P@ssw0rd&lt;/span&gt;</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User click on login button" result="SUCCESS">
+      <screenshots>
+        <screenshot image="490963e663a26fd038f00f5c73fcc527.png"/>
+        <screenshot image="9f2384f511fd1995933d3ebb25472bda.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="35304">
+        <screenshots>
+          <screenshot image="490963e663a26fd038f00f5c73fcc527.png"/>
+          <screenshot image="0a722c4bc5ef5e9b415c1e4005fb8c07.png"/>
+        </screenshots>
+        <description>Click on login button</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then User should be navigated to home screen" result="SUCCESS">
+      <screenshots>
+        <screenshot image="f5b72c2f0407a23691e60c9013a5e5b3.png"/>
+        <screenshot image="653adbde6c31ca391ee04fdd726fb8cf.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1155">
+        <screenshots>
+          <screenshot image="340e6e739bc06777db1b5bdeb1f1342a.png"/>
+          <screenshot image="d49d522264afd9240517ba5c6e766d05.png"/>
+        </screenshots>
+        <description>Verify twitter home screen</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

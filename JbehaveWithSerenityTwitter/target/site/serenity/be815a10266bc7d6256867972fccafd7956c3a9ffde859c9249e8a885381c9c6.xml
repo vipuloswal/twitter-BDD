@@ -1,0 +1,58 @@
+<acceptance-test-run title="US001 Login to facebook" name="US001 Login to facebook" steps="4" successful="0" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="42666" timestamp="2017-06-03T15:58:27.439+06:00">
+  <user-story id="Us1122_loginToFacebook" name="Us1122 login to facebook" path="stories/Us1122_loginToFacebook.story"/>
+  <tags>
+    <tag name="Us1122 login to facebook" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>Username</header>
+      <header>Password</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>abc@tc.com</value>
+        <value>vip@1212</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {Username=abc@tc.com, Password=vip@1212, userstory=facebook-login to facebook}" result="ERROR">
+    <test-group name="Given User hit the facebook link in browser" result="ERROR">
+      <test-step result="ERROR" duration="41530">
+        <description>Open the application</description>
+        <error>org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.16 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;VIP-VAIO&apos;, ip: &apos;192.168.43.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\VIP\AppData\Local\Temp\scoped_dir6800_30300}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4e8959ac7a359665b5f1eb0bfc90828a</error>
+        <exception>org.openqa.selenium.WebDriverException:unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.16 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;VIP-VAIO&apos;, ip: &apos;192.168.43.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\VIP\AppData\Local\Temp\scoped_dir6800_30300}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4e8959ac7a359665b5f1eb0bfc90828a&#xd;
+[facebook.login.LoginPage.openTheApplication(LoginPage.java:12), facebook.login.LoginSteps.openTheApplication(LoginSteps.java:16), facebook.login.LoginBdd.givenUserHitTheFacebookLinkInBrowser(LoginBdd.java:18)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="4">
+      <description>When User passes username {abc@tc.com} and password {vip@1212}</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="2">
+      <description>And User click on login button</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="1">
+      <description>Then User should be navigated to home screen</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

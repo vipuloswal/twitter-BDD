@@ -1,0 +1,871 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/Us1122_loginToTwitter.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "Twitter user",
+          "iWantTo": "login into Twitter application",
+          "soThat": "I can access my Twitter account correctly\r\n\r\nMeta:\r\n@userstory Twitter-login to Twitter"
+        },
+        "meta": {
+          "properties": [
+            {
+              "@name": "userstory",
+              "@value": "Twitter-login to Twitter"
+            }
+          ]
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "US001 Login to Twitter : Login with correct crendentials",
+            "meta": {
+              "properties": [
+                {
+                  "@name": "categories",
+                  "@value": "Twitter-login to Twitter"
+                }
+              ]
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|Username|Password|\r\n|@TestApp63500650|P@ssw0rd|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "Username",
+                "Password"
+              ],
+              "data": [
+                [
+                  [
+                    "Username",
+                    "@TestApp63500650"
+                  ],
+                  [
+                    "Password",
+                    "P@ssw0rd"
+                  ],
+                  [
+                    "categories",
+                    "Twitter-login to Twitter"
+                  ],
+                  [
+                    "userstory",
+                    "Twitter-login to Twitter"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User hit the twitter link in browser",
+              "When User passes username <Username> and password <Password>",
+              "And User click on login button",
+              "Then User should be navigated to home screen"
+            ]
+          }
+        ],
+        "name": "Us1122_loginToTwitter.story"
+      },
+      "localizedNarrative": "As a Twitter user\nI want to login into Twitter application\nSo that I can access my Twitter account correctly\r\n\r\nMeta:\r\n@userstory Twitter-login to Twitter",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "US001 Login to Twitter : Login with correct crendentials",
+            "meta": {
+              "properties": [
+                {
+                  "@name": "categories",
+                  "@value": "Twitter-login to Twitter"
+                }
+              ]
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|Username|Password|\r\n|@TestApp63500650|P@ssw0rd|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "Username",
+                "Password"
+              ],
+              "data": [
+                [
+                  [
+                    "Username",
+                    "@TestApp63500650"
+                  ],
+                  [
+                    "Password",
+                    "P@ssw0rd"
+                  ],
+                  [
+                    "categories",
+                    "Twitter-login to Twitter"
+                  ],
+                  [
+                    "userstory",
+                    "Twitter-login to Twitter"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User hit the twitter link in browser",
+              "When User passes username <Username> and password <Password>",
+              "And User click on login button",
+              "Then User should be navigated to home screen"
+            ]
+          },
+          "storyPath": "stories/Us1122_loginToTwitter.story",
+          "allowed": true,
+          "examplePerformableScenarios": [
+            {
+              "parameters": [
+                [
+                  "Username",
+                  "@TestApp63500650"
+                ],
+                [
+                  "Password",
+                  "P@ssw0rd"
+                ],
+                [
+                  "categories",
+                  "Twitter-login to Twitter"
+                ],
+                [
+                  "userstory",
+                  "Twitter-login to Twitter"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [],
+                "results": [
+                  {
+                    "step": "Given User hit the twitter link in browser",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Given User hit the twitter link in browser",
+                    "durationInMillis": 55067
+                  },
+                  {
+                    "step": "When User passes username <Username> and password <Password>",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "When User passes username ｟@TestApp63500650｠ and password ｟P@ssw0rd｠",
+                    "durationInMillis": 2542
+                  },
+                  {
+                    "step": "And User click on login button",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "And User click on login button",
+                    "durationInMillis": 35306
+                  },
+                  {
+                    "step": "Then User should be navigated to home screen",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Then User should be navigated to home screen",
+                    "durationInMillis": 1219
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": [
+                  {
+                    "@name": "userstory",
+                    "@value": "Twitter-login to Twitter"
+                  },
+                  {
+                    "@name": "categories",
+                    "@value": "Twitter-login to Twitter"
+                  }
+                ]
+              },
+              "scenario": {
+                "title": "US001 Login to Twitter : Login with correct crendentials",
+                "meta": {
+                  "properties": [
+                    {
+                      "@name": "categories",
+                      "@value": "Twitter-login to Twitter"
+                    }
+                  ]
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "headerSeparator": "|",
+                    "valueSeparator": "|",
+                    "ignorableSeparator": "|--",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ],
+                    "propertiesAsString": "",
+                    "namedParameters": [],
+                    "trim": true
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|Username|Password|\r\n|@TestApp63500650|P@ssw0rd|",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "Username",
+                    "Password"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "Username",
+                        "@TestApp63500650"
+                      ],
+                      [
+                        "Password",
+                        "P@ssw0rd"
+                      ],
+                      [
+                        "categories",
+                        "Twitter-login to Twitter"
+                      ],
+                      [
+                        "userstory",
+                        "Twitter-login to Twitter"
+                      ]
+                    ]
+                  ],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                },
+                "steps": [
+                  "Given User hit the twitter link in browser",
+                  "When User passes username <Username> and password <Password>",
+                  "And User click on login button",
+                  "Then User should be navigated to home screen"
+                ]
+              }
+            }
+          ],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 98332
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "US001 Login to Twitter : Login with correct crendentials",
+        "meta": {
+          "properties": [
+            {
+              "@name": "categories",
+              "@value": "Twitter-login to Twitter"
+            }
+          ]
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "|Username|Password|\r\n|@TestApp63500650|P@ssw0rd|",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [
+            "Username",
+            "Password"
+          ],
+          "data": [
+            [
+              [
+                "Username",
+                "@TestApp63500650"
+              ],
+              [
+                "Password",
+                "P@ssw0rd"
+              ],
+              [
+                "categories",
+                "Twitter-login to Twitter"
+              ],
+              [
+                "userstory",
+                "Twitter-login to Twitter"
+              ]
+            ]
+          ],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User hit the twitter link in browser",
+          "When User passes username <Username> and password <Password>",
+          "And User click on login button",
+          "Then User should be navigated to home screen"
+        ]
+      },
+      "storyPath": "stories/Us1122_loginToTwitter.story",
+      "allowed": true,
+      "examplePerformableScenarios": [
+        {
+          "parameters": [
+            [
+              "Username",
+              "@TestApp63500650"
+            ],
+            [
+              "Password",
+              "P@ssw0rd"
+            ],
+            [
+              "categories",
+              "Twitter-login to Twitter"
+            ],
+            [
+              "userstory",
+              "Twitter-login to Twitter"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [],
+            "results": [
+              {
+                "step": "Given User hit the twitter link in browser",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Given User hit the twitter link in browser",
+                "durationInMillis": 55067
+              },
+              {
+                "step": "When User passes username <Username> and password <Password>",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "When User passes username ｟@TestApp63500650｠ and password ｟P@ssw0rd｠",
+                "durationInMillis": 2542
+              },
+              {
+                "step": "And User click on login button",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "And User click on login button",
+                "durationInMillis": 35306
+              },
+              {
+                "step": "Then User should be navigated to home screen",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Then User should be navigated to home screen",
+                "durationInMillis": 1219
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": [
+              {
+                "@name": "userstory",
+                "@value": "Twitter-login to Twitter"
+              },
+              {
+                "@name": "categories",
+                "@value": "Twitter-login to Twitter"
+              }
+            ]
+          },
+          "scenario": {
+            "title": "US001 Login to Twitter : Login with correct crendentials",
+            "meta": {
+              "properties": [
+                {
+                  "@name": "categories",
+                  "@value": "Twitter-login to Twitter"
+                }
+              ]
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|Username|Password|\r\n|@TestApp63500650|P@ssw0rd|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "Username",
+                "Password"
+              ],
+              "data": [
+                [
+                  [
+                    "Username",
+                    "@TestApp63500650"
+                  ],
+                  [
+                    "Password",
+                    "P@ssw0rd"
+                  ],
+                  [
+                    "categories",
+                    "Twitter-login to Twitter"
+                  ],
+                  [
+                    "userstory",
+                    "Twitter-login to Twitter"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User hit the twitter link in browser",
+              "When User passes username <Username> and password <Password>",
+              "And User click on login button",
+              "Then User should be navigated to home screen"
+            ]
+          }
+        }
+      ],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}

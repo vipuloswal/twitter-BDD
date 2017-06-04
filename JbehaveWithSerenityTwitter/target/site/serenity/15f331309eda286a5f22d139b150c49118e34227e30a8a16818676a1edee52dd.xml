@@ -1,0 +1,35 @@
+<acceptance-test-run title="US001 Login to facebook" name="US001 Login to facebook" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="125" timestamp="2017-05-06T00:34:28.949+06:00">
+  <user-story id="Us1122_loginToFacebook" name="Us1122 login to facebook" path="Stories/Us1122_loginToFacebook.story"/>
+  <tags>
+    <tag name="Us1122 login to facebook" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>Username</header>
+      <header>Password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>abc@tc.com</value>
+        <value>vip@1212</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {Username=abc@tc.com, Password=vip@1212, userstory=facebook-login to facebook}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="16">
+      <description>Given User hit the facebook link in browser</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15">
+      <description>When User passes username {abc@tc.com} and password {vip@1212}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>And User click on login button</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then User should be navigated to home screen</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
