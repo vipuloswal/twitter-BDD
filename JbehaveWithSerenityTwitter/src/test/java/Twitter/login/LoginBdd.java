@@ -13,7 +13,7 @@ public class LoginBdd {
     LoginSteps loginSteps;
 
     @Given("User hit the twitter link in browser")
-    public void givenUserHitTheFacebookLinkInBrowser() {
+    public void givenUserHitTheTwitterLinkInBrowser() {
         loginSteps.openTheApplication();
         System.out.println("User navigated to twitter login screen in browser");
     }
@@ -28,8 +28,6 @@ public class LoginBdd {
     public void whenUserPassesUsernameAndPassword(String Username, String Password) {
         System.out.println("Username is: "+ Username);
         System.out.println("Password is: "+ Password);
-        //username: "@TestApp63500650"
-        // password="P@ssw0rd"
         loginSteps.passUsernameAndPassword(Username,Password);
         System.out.println("User has passed correct username and password in username and password field respectively");
     }
@@ -38,5 +36,22 @@ public class LoginBdd {
     public void whenUserClickOnLoginButton() {
         loginSteps.clickOnLoginButton();
         System.out.println("User clicks on LoginScreen button");
+    }
+
+    /*@Given("User is on twitter Home screen with <userName> and <password>")
+    public void userNavigatesToHomeScreen(String userName, String password) {
+        System.out.println("Inside hello");
+*//*        loginSteps.openTheApplication();
+        System.out.println("User navigated to twitter login screen in browser");*//*
+        givenUserHitTheTwitterLinkInBrowser();
+        whenUserPassesUsernameAndPassword(userName,password);
+        whenUserClickOnLoginButton();
+    }*/
+
+    @Given("User is navigated to login page with $Username and $Password")
+    public void userNavigatesToHomeScreen(String userName, String password){
+        givenUserHitTheTwitterLinkInBrowser();
+        whenUserPassesUsernameAndPassword(userName,password);
+        whenUserClickOnLoginButton();
     }
 }

@@ -19,7 +19,7 @@ public class LoginPage extends PageObject {
     @FindBy(css="div.clearfix.field input[name='session[password]'")
     private WebElement password;
 
-    @FindBy(css="button.submit.btn.primary-btn")
+    @FindBy(css="button[class='submit EdgeButton EdgeButton--primary EdgeButtom--medium']")
     private WebElement loginButton;
 
     public void openTheApplication() {
@@ -49,5 +49,4 @@ public class LoginPage extends PageObject {
     public WebElement getHeading(){
         return heading;
     }
-
 }
